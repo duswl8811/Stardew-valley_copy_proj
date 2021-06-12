@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{fadb7623-a2a5-4c59-81d3-280101cfd143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\01.Logo">
+      <UniqueIdentifier>{1d3fcdb5-3438-42e6-99ce-88066a7fe322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\02.Home">
+      <UniqueIdentifier>{c675ca0a-956f-4af8-82f7-9f71416336f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\04.Town">
+      <UniqueIdentifier>{a34cdd10-cefc-49fd-83d3-c4f54afdc7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03.Farm">
+      <UniqueIdentifier>{83dc7b78-c6b7-4955-8800-3d1c693adc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{5811e126-6f1f-4fd7-8a78-16751af22ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\01.Player">
+      <UniqueIdentifier>{bd5d4e3f-43a5-440f-bd65-793e7ac04cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\02.NPC">
+      <UniqueIdentifier>{85d9e4e8-83d0-410c-a417-5cbc099a99f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{a925db92-c1fa-4605-ac8d-b6e00c087c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster">
+      <UniqueIdentifier>{5f36febc-93f0-4a1d-82d9-a46fff9830ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ReactObj">
+      <UniqueIdentifier>{c1afae28-675f-44af-a539-6bf60f60dde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c2ef3e97-0427-4962-936f-65ab138b4238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainGame">
+      <UniqueIdentifier>{37d34822-e52c-48df-b0fa-a9e3bb35621e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyMgr">
+      <UniqueIdentifier>{02ec660f-9551-401c-aaa4-3036ae6bc90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneMgr">
+      <UniqueIdentifier>{0d44f652-d05c-4438-92c8-703e87ef7906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjectMgr">
+      <UniqueIdentifier>{d2d330e3-db3e-4a23-96e9-abfc8e5d41af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>Scene\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmScene.h">
+      <Filter>Scene\03.Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene.h">
+      <Filter>Scene\02.Home</Filter>
+    </ClInclude>
+    <ClInclude Include="TownScene.h">
+      <Filter>Scene\04.Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Object\02.NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactObj.h">
+      <Filter>Object\ReactObj</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>01.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\ObjectMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>Scene\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmScene.cpp">
+      <Filter>Scene\03.Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene.cpp">
+      <Filter>Scene\02.Home</Filter>
+    </ClCompile>
+    <ClCompile Include="TownScene.cpp">
+      <Filter>Scene\04.Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Object\02.NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactObj.cpp">
+      <Filter>Object\ReactObj</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>01.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\ObjectMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Stardew valley_copy_proj.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Stardew valley_copy_proj.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

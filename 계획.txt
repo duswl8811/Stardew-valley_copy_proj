@@ -1,0 +1,43 @@
+(게임 프레임 워크)
+main  --> 
+maingame :: 각종 초기화 --> 
+sceneManager :: 어느신인지 관리하고 셋팅 / scene 셋팅할 때, 각각의 ???scene으로 메모리 초기화 --> 
+scene --> 
+objectManager :: 오브젝트 각각 처리 -->
+player, object, ... 등등 각각의 progress 및 render 처리
+
+모든 것은 init update render delete 한다.
+만들기 위한 공간을 확보하고, 정보를 갱신하고, 그리고, 없앤 뒤 공간을 정리한다.
+
+싱글톤 : 해당 클래스에 대한 인스턴스를 하나만 만들고 싶을 때!!
+인스턴싱 : DP를 한 번만 할려고! ex) 1000개의 박스를 만들어 놓고 한 번에 draw
+
+///
+2021-06-12 map tool 제작
+스타듀 밸리 맵을 넣기 위해 맵툴 제작이 필요
+
+바닥 -> 오브젝트 -> 장식
+path --> move_ok  /  move_no
+오브젝트 --> active / active_no
+
+제작할 map를 setting
+전체 맵 타일 개수 x, y count 와 타일당 x, y size 입력
+or 크기 미리 지정
+
+넣을 tile_map_sheet를 <load>
+자를 크기 입력 ex) 16x16
+
+tile_map_sheet 위에 16x16으로 draw_line 
+선택하면 해당 위치에 draw_rect
+
+선택한 상태로 (선택을 안하면 default select -> 1)
+맵 위 타일 클릭하면
+해당 pos를 check 후, 해당 타일에 blt (from tile_map_sheet select pos   to my_map pos)
+
+<save> 하면 my_map을 저장
+
+result...
+
+my_map.bmp
+my_map_path.bmp
+my_map_obj.bmp

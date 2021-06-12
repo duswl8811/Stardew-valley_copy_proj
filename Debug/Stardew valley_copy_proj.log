@@ -1,0 +1,22 @@
+﻿  HomeScene.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+  LogoScene.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+  ObjectManager.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+  Player.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.cpp(125): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.cpp(123): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneManager.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+  main.cpp
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(6): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Size' 왼쪽은 무시됩니다.
+d:\github\2019-2020_portfolio\stardew valley_copy\stardew valley_copy_proj\player.h(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'PlayerInfo' 왼쪽은 무시됩니다.
+  코드를 생성하고 있습니다...
+  Stardew valley_copy_proj.vcxproj -> D:\GitHub\2019-2020_PORTFOLIO\Stardew valley_copy\Stardew valley_copy_proj\Debug\Stardew valley_copy_proj.exe
